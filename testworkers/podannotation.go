@@ -3,8 +3,8 @@ package testworkers
 import (
 	"context"
 
-	"github.com/sergioifg94/thatchd-sample/testsuite"
-	"github.com/sergioifg94/thatchd/pkg/thatchd/testworker"
+	"github.com/thatchd/thatchd-sample/testsuite"
+	"github.com/thatchd/thatchd/pkg/thatchd/testworker"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/types"
 	"sigs.k8s.io/controller-runtime/pkg/client"

@@ -20,11 +20,11 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	_ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
 
-	"github.com/sergioifg94/thatchd-sample/testcases"
-	"github.com/sergioifg94/thatchd-sample/testsuite"
-	"github.com/sergioifg94/thatchd-sample/testworkers"
-	"github.com/sergioifg94/thatchd/pkg/thatchd/manager"
-	"github.com/sergioifg94/thatchd/pkg/thatchd/strategy"
+	"github.com/thatchd/thatchd-sample/testcases"
+	"github.com/thatchd/thatchd-sample/testsuite"
+	"github.com/thatchd/thatchd-sample/testworkers"
+	"github.com/thatchd/thatchd/pkg/thatchd/manager"
+	"github.com/thatchd/thatchd/pkg/thatchd/strategy"
 )
 
 // +kubebuilder:rbac:groups=testing.thatchd.io,resources=testcases,verbs=get;list;watch;create;update;patch;delete

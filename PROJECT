@@ -1,7 +1,7 @@
 domain: my.domain
 layout: go.kubebuilder.io/v2
 projectName: thatchd-sample
-repo: github.com/sergioifg94/thatchd-sample
+repo: github.com/thatchd/thatchd-sample
 version: 3-alpha
 plugins:
   go.sdk.operatorframework.io/v2-alpha: {}

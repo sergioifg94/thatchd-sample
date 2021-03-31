@@ -1,6 +1,6 @@
 # Thatchd Sample Project
 
-This is a simple [Thatchd](https://github.com/sergioifg94/thatchd)-powered testing operator.
+This is a simple [Thatchd](https://github.com/thatchd/thatchd)-powered testing operator.
 It reconciles the components to test that a Pod has an expected annotation.
 
 ## Components
@@ -24,7 +24,7 @@ how to try it locally.
 
 Clone the repo and install resources in the cluster
 ```sh
-git clone https://github.com/sergioifg94/thatchd-sample.git
+git clone https://github.com/thatchd/thatchd-sample.git
 cd thatchd-sample
 make install
 ```
